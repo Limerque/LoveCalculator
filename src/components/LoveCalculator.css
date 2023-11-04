@@ -1,0 +1,49 @@
+.love-calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: pink;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.love-calculator h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.love-calculator label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.love-calculator input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid pink;
+  border-radius: 4px;
+}
+
+.love-calculator button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #a6f57f;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.love-percentage {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
