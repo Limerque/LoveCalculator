@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Your app description",
   "scripts": {
-    "start": "node src/index.js",
-    "build": "babel src -d dist"
+    "start": "node src/index.jsx",
+    "build": "webpack"
   },
    "license": "ISC",
   "dependencies": { "react": "^17.0.2",
