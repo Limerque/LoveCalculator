@@ -1,25 +1,13 @@
 {
-  "name": "react-javascript",
+  "name": "your-app",
   "version": "1.0.0",
-  "type": "module",
-  "description": "React TypeScript on Replit, using Vite bundler",
+  "description": "Your app description",
   "scripts": {
-    "dev": "yarn",
-    "build": "yarn; yarn build",
-    "preview": "yarn preview",
-    "start": "yarn start"
+    "start": "node src/index.js",
+    "build": "babel src -d dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^3.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^4.9.5",
-    "vite": "^4.1.1"
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
