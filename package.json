@@ -4,10 +4,10 @@
   "type": "module",
   "description": "React TypeScript on Replit, using Vite bundler",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "start": "node App.jsx"
+    "dev": "yarn",
+    "build": "yarn; yarn build",
+    "preview": "yarn preview",
+    "start": "yarn start"
   },
   "keywords": [],
   "author": "",
